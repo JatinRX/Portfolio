@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jatin Garg - Game Developer & AI Enthusiast</title>
+    <meta name="description" content="Jatin Garg - Game Developer & AI Enthusiast specializing in Unreal Engine, multiplayer systems, and interactive experiences">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <svg class="gamepad-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="6" y1="11" x2="10" y2="11"></line>
+                    <line x1="8" y1="9" x2="8" y2="13"></line>
+                    <line x1="15" y1="12" x2="15.01" y2="12"></line>
+                    <line x1="18" y1="10" x2="18.01" y2="10"></line>
+                    <path d="M17.32 5H6.68a4 4 0 0 0-4.25 5.29l.9 6.32A2 2 0 0 0 5.31 18h1.75C8.22 18 9 17.22 9 16.06V14a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2.06C15 17.22 15.78 18 16.94 18h1.75a2 2 0 0 0 1.98-1.61l.9-6.32A4 4 0 0 0 17.32 5Z"></path>
+                </svg>
+                <span class="brand-text">JG</span>
+            </div>
+            
+            <!-- Desktop Navigation -->
+            <div class="nav-desktop">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#current-work" class="nav-link">Current Work</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+
+            <!-- Mobile menu button -->
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <span class="hamburger"></span>
+            </button>
+        </div>
+
+        <!-- Mobile Navigation -->
+        <div class="mobile-nav" id="mobileNav">
+            <a href="#about" class="mobile-nav-link">About</a>
+            <a href="#experience" class="mobile-nav-link">Experience</a>
+            <a href="#current-work" class="mobile-nav-link">Current Work</a>
+            <a href="#contact" class="mobile-nav-link">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="floating-particles"></div>
+        <div class="hero-content">
+            <img src="https://customer-assets.emergentagent.com/job_tech-innovator-32/artifacts/roldp6t7_ProfileImage.png" alt="Jatin Garg" class="profile-image">
+            <h1 class="hero-name">Jatin Garg</h1>
+            <h2 class="hero-title gradient-text">Game Developer & AI Enthusiast</h2>
+            <p class="hero-tagline">Building Tomorrow's Interactive Experiences Through Code & Innovation</p>
+            <div class="hero-buttons">
+                <a href="#current-work" class="btn-gaming">
+                    <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polygon points="5,3 19,12 5,21 5,3"></polygon>
+                    </svg>
+                    View My Work
+                </a>
+                <a href="#contact" class="btn-gaming-outline">
+                    <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                        <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                    Get In Touch
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Computer engineer passionate about building interactive experiences that connect people worldwide. With 5+ years in game development, I specialize in multiplayer systems and engaging gameplay. Currently exploring AI applications in player experiences and development workflows. Always excited about the intersection of technology and creativity.</p>
+            </div>
+
+            <div class="skills-grid">
+                <!-- Game Development Skills -->
+                <div class="gaming-card">
+                    <div class="card-header">
+                        <svg class="card-icon gamepad" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="6" y1="11" x2="10" y2="11"></line>
+                            <line x1="8" y1="9" x2="8" y2="13"></line>
+                            <line x1="15" y1="12" x2="15.01" y2="12"></line>
+                            <line x1="18" y1="10" x2="18.01" y2="10"></line>
+                            <path d="M17.32 5H6.68a4 4 0 0 0-4.25 5.29l.9 6.32A2 2 0 0 0 5.31 18h1.75C8.22 18 9 17.22 9 16.06V14a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2.06C15 17.22 15.78 18 16.94 18h1.75a2 2 0 0 0 1.98-1.61l.9-6.32A4 4 0 0 0 17.32 5Z"></path>
+                        </svg>
+                        <h3>Game Development</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag green">Unreal Engine 4/5</span>
+                        <span class="skill-tag green">Network Multiplayer</span>
+                        <span class="skill-tag green">Blueprint Scripting</span>
+                        <span class="skill-tag green">Gameplay Framework</span>
+                        <span class="skill-tag green">UMG UI Systems</span>
+                        <span class="skill-tag green">Game Design Patterns</span>
+                    </div>
+                </div>
+
+                <!-- Programming Skills -->
+                <div class="gaming-card">
+                    <div class="card-header">
+                        <svg class="card-icon blue" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="16,18 22,12 16,6"></polyline>
+                            <polyline points="8,6 2,12 8,18"></polyline>
+                        </svg>
+                        <h3>Programming</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag blue">C++ & OOPs</span>
+                        <span class="skill-tag blue">JavaScript</span>
+                        <span class="skill-tag blue">Angular & Redux</span>
+                        <span class="skill-tag blue">Data Structures</span>
+                        <span class="skill-tag blue">Vector Maths & Algebra</span>
+                    </div>
+                </div>
+
+                <!-- Tools & Technologies -->
+                <div class="gaming-card">
+                    <div class="card-header">
+                        <svg class="card-icon yellow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polygon points="13,2 3,14 12,14 11,22 21,10 12,10 13,2"></polygon>
+                        </svg>
+                        <h3>Tools & Technologies</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag yellow">Perforce</span>
+                        <span class="skill-tag yellow">Unity Engine</span>
+                        <span class="skill-tag yellow">Git Version Control</span>
+                        <span class="skill-tag yellow">Visual Studio Code</span>
+                        <span class="skill-tag yellow">Visual Studio Community</span>
+                        <span class="skill-tag yellow">Rider IDE</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Professional Journey</h2>
+                <p class="section-subtitle">Building innovative experiences across the gaming industry</p>
+            </div>
+
+            <div class="experience-list">
+                <!-- Current Role -->
+                <div class="gaming-card experience-card">
+                    <div class="experience-header">
+                        <div class="experience-info">
+                            <h3 class="experience-role">Senior Software Engineer - Gameplay</h3>
+                            <p class="experience-company">Dream Game Studios</p>
+                            <p class="experience-location">
+                                <svg class="location-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg>
+                                Pune
+                            </p>
+                        </div>
+                        <span class="experience-period">July 2023 - Present</span>
+                    </div>
+                    <ul class="achievement-list">
+                        <li>Working on DREAM CRICKET 24 (4.6★ rating on Play Store/App Store)</li>
+                        <li>Designed and implemented network multiplayer mode</li>
+                        <li>Individually handled disconnection and rejoining scenarios</li>
+                        <li>Implemented anti-hack strategies to ensure fair gameplay</li>
+                        <li>Created interactive user gameplay onboarding for first-time users</li>
+                        <li>Worked on Game Analytics, Cameras, and UI systems</li>
+                    </ul>
+                </div>
+
+                <!-- Previous Role at Dream Game Studios -->
+                <div class="gaming-card experience-card">
+                    <div class="experience-header">
+                        <div class="experience-info">
+                            <h3 class="experience-role">Gameplay Software Engineer</h3>
+                            <p class="experience-company">Dream Game Studios</p>
+                            <p class="experience-location">
+                                <svg class="location-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg>
+                                Pune
+                            </p>
+                        </div>
+                        <span class="experience-period">February 2022 - June 2023</span>
+                    </div>
+                    <ul class="achievement-list">
+                        <li>Implemented Audio and Commentary systems in the game</li>
+                        <li>Worked on shot training and shot selection algorithm for Batting</li>
+                        <li>Developed various in-house tools for Design and Art teams</li>
+                    </ul>
+                </div>
+
+                <!-- Games24x7 -->
+                <div class="gaming-card experience-card">
+                    <div class="experience-header">
+                        <div class="experience-info">
+                            <h3 class="experience-role">Software Development Engineer</h3>
+                            <p class="experience-company">Games24x7</p>
+                            <p class="experience-location">
+                                <svg class="location-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg>
+                                Bangalore
+                            </p>
+                        </div>
+                        <span class="experience-period">December 2021 - February 2022</span>
+                    </div>
+                    <ul class="achievement-list">
+                        <li>Worked on migrating the Rummy Circle game to Unity</li>
+                    </ul>
+                </div>
+
+                <!-- Amadeus Software Labs -->
+                <div class="gaming-card experience-card">
+                    <div class="experience-header">
+                        <div class="experience-info">
+                            <h3 class="experience-role">Software Engineer</h3>
+                            <p class="experience-company">Amadeus Software Labs</p>
+                            <p class="experience-location">
+                                <svg class="location-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg>
+                                Bangalore
+                            </p>
+                        </div>
+                        <span class="experience-period">July 2020 - December 2021</span>
+                    </div>
+                    <ul class="achievement-list">
+                        <li>Developed responsive Angular web app for flight bookings</li>
+                        <li>Worked with cross-border teams in scaled agile framework</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Current Work - Dream Cricket Section -->
+    <section id="current-work" class="current-work-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Current Major Work</h2>
+                <p class="section-subtitle">Leading the development of India's most realistic 3D cricket game</p>
+            </div>
+
+            <div class="gaming-card major-work-card">
+                <div class="work-header">
+                    <div class="work-info">
+                        <h3 class="work-title gradient-text">Dream Cricket 2024</h3>
+                        <p class="work-subtitle">Mobile Cricket Gaming</p>
+                        <p class="work-company">
+                            <svg class="award-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="8" r="7"></circle>
+                                <polyline points="8.21,13.89 7,23 12,20 17,23 15.79,13.88"></polyline>
+                            </svg>
+                            Dream Game Studios
+                        </p>
+                    </div>
+                    <a href="https://dreamcricket.app/" target="_blank" class="btn-gaming">
+                        <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                            <polyline points="15,3 21,3 21,9"></polyline>
+                            <line x1="10" y1="14" x2="21" y2="3"></line>
+                        </svg>
+                        Visit Game
+                    </a>
+                </div>
+                
+                <p class="work-description">Working on India's popular cricket mobile game with 4.6★ rating on Play Store/App Store.</p>
+                
+                <div class="contributions-section">
+                    <h4 class="contributions-title">
+                        <svg class="contributions-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="16,18 22,12 16,6"></polyline>
+                            <polyline points="8,6 2,12 8,18"></polyline>
+                        </svg>
+                        My Contributions
+                    </h4>
+                    <ul class="contributions-list">
+                        <li>Designed and implemented network multiplayer mode for real-time competitive gameplay</li>
+                        <li>Individually handled disconnection and rejoining scenarios in multiplayer</li>
+                        <li>Implemented anti-hack strategies to ensure fair gameplay for all users</li>
+                        <li>Created interactive user gameplay onboarding system for first-time users</li>
+                        <li>Implemented Audio and Commentary systems in the game</li>
+                        <li>Worked on shot training and shot selection algorithm for Batting mechanics</li>
+                        <li>Developed various in-house tools for Design and Art teams</li>
+                        <li>Contributed to Game Analytics, Camera systems, and UI development</li>
+                    </ul>
+                </div>
+
+                <div class="tech-tags">
+                    <span class="tech-tag">Unreal Engine</span>
+                    <span class="tech-tag">C++ Gameplay Programming</span>
+                    <span class="tech-tag">Network Multiplayer</span>
+                    <span class="tech-tag">Blueprint Scripting</span>
+                    <span class="tech-tag">Game Analytics</span>
+                </div>
+
+                <div class="impact-box">
+                    <p class="impact-text">Contributing to a game that serves millions of cricket fans with engaging multiplayer experiences</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Strengths Section -->
+    <section class="core-strengths-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Core Expertise</h2>
+                <p class="section-subtitle">Key areas of technical expertise and specialization</p>
+            </div>
+
+            <div class="strengths-grid">
+                <div class="gaming-card">
+                    <h3 class="strength-title">Unreal Engine Development</h3>
+                    <p class="strength-description">5+ years of hands-on experience with Unreal Engine, specializing in gameplay framework, network multiplayer, and cross-platform development.</p>
+                    <div class="skill-tags">
+                        <span class="skill-tag green">C++ Gameplay Programming</span>
+                        <span class="skill-tag green">Blueprint Scripting</span>
+                        <span class="skill-tag green">Network Multiplayer</span>
+                        <span class="skill-tag green">UMG UI Systems</span>
+                        <span class="skill-tag green">Game Design Patterns</span>
+                    </div>
+                </div>
+
+                <div class="gaming-card">
+                    <h3 class="strength-title">Network Multiplayer Systems</h3>
+                    <p class="strength-description">Expert in designing and implementing robust multiplayer architectures, handling disconnection/reconnection scenarios and anti-cheat mechanisms.</p>
+                    <div class="skill-tags">
+                        <span class="skill-tag green">Real-time Networking</span>
+                        <span class="skill-tag green">Disconnection Handling</span>
+                        <span class="skill-tag green">Anti-cheat Implementation</span>
+                        <span class="skill-tag green">Performance Optimization</span>
+                    </div>
+                </div>
+
+                <div class="gaming-card">
+                    <h3 class="strength-title">Leadership & Team Development</h3>
+                    <p class="strength-description">Proven experience in leading cross-functional teams and mentoring developers, with a track record of successful project deliveries.</p>
+                    <div class="skill-tags">
+                        <span class="skill-tag green">Team Leadership</span>
+                        <span class="skill-tag green">Technical Mentorship</span>
+                        <span class="skill-tag green">Cross-functional Collaboration</span>
+                        <span class="skill-tag green">Tool Development</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leadership & Education Section -->
+    <section class="education-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Leadership & Education</h2>
+                <p class="section-subtitle">Academic achievements and leadership experience</p>
+            </div>
+
+            <div class="education-grid">
+                <!-- Education -->
+                <div class="gaming-card">
+                    <h3 class="card-title">
+                        <svg class="card-icon green" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="8" r="7"></circle>
+                            <polyline points="8.21,13.89 7,23 12,20 17,23 15.79,13.88"></polyline>
+                        </svg>
+                        Education
+                    </h3>
+                    
+                    <div class="education-item">
+                        <h4 class="education-degree">Bachelor of Engineering - Computer Science</h4>
+                        <p class="education-institution">Thapar Institute of Engineering & Technology, Patiala</p>
+                        <p class="education-details">2016-2020 • CGPA: 8.85/10</p>
+                    </div>
+                    
+                    <div class="education-item">
+                        <h4 class="education-degree">Game Development - Cohort Program</h4>
+                        <p class="education-institution">Avalon Meta Pro-league</p>
+                        <p class="education-details">September 2020 - August 2021</p>
+                    </div>
+
+                    <div class="certifications">
+                        <h5 class="certifications-title">Certifications</h5>
+                        <div class="skill-tags">
+                            <span class="skill-tag gray">Neural Networks and Deep Learning</span>
+                            <span class="skill-tag gray">SQL Fundamentals Course</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Leadership Experience -->
+                <div class="gaming-card">
+                    <h3 class="card-title">
+                        <svg class="card-icon blue" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                        </svg>
+                        Leadership Experience
+                    </h3>
+                    
+                    <div class="leadership-item">
+                        <div class="leadership-header">
+                            <h4 class="leadership-role">General Secretary</h4>
+                            <span class="leadership-period">2018-2019</span>
+                        </div>
+                        <p class="leadership-org">SPICMACAY</p>
+                        <p class="leadership-desc">Led a team of 60+ members for 4 major events featuring international level classical artists</p>
+                        <div class="leadership-achievements">
+                            <span class="achievement-tag">Managed ₹3.5 Lakh budget</span>
+                            <span class="achievement-tag">4 major cultural events</span>
+                            <span class="achievement-tag">60+ team members</span>
+                        </div>
+                    </div>
+
+                    <div class="leadership-item">
+                        <div class="leadership-header">
+                            <h4 class="leadership-role">C++ Mentor</h4>
+                            <span class="leadership-period">2019</span>
+                        </div>
+                        <p class="leadership-org">Thapar Institute</p>
+                        <p class="leadership-desc">Mentored 10+ students in a mentor/learner program</p>
+                        <div class="leadership-achievements">
+                            <span class="achievement-tag">Competitive programming</span>
+                            <span class="achievement-tag">Technical workshops</span>
+                            <span class="achievement-tag">10+ students mentored</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Earlier Projects Section -->
+    <section class="projects-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-subtitle">Earlier Learning Projects</h2>
+                <p class="section-description">Foundation projects that shaped my game development journey</p>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <span class="project-category">Game Jam</span>
+                        <a href="https://www.youtube.com/watch?v=1DRU7KQgVFw" target="_blank" class="project-link">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15,3 21,3 21,9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                    </div>
+                    <h3 class="project-title">FALLER</h3>
+                    <p class="project-subtitle">Puzzle Adventure Game</p>
+                    <p class="project-description">Epic Mega Jam 21 entry showcasing puzzle mechanics and environmental storytelling.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag-small">Unreal Engine</span>
+                        <span class="tech-tag-small">C++</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <span class="project-category">Technical Demo</span>
+                        <a href="https://www.youtube.com/watch?v=2p2oxeHWXGw" target="_blank" class="project-link">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15,3 21,3 21,9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                    </div>
+                    <h3 class="project-title">The Construction Site</h3>
+                    <p class="project-subtitle">Technical Environment Demo</p>
+                    <p class="project-description">Photorealistic environment with advanced lighting and combat systems.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag-small">Unreal Engine</span>
+                        <span class="tech-tag-small">Quixel</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <span class="project-category">Personal Project</span>
+                        <a href="https://www.youtube.com/watch?v=Xguw8_miWLk" target="_blank" class="project-link">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15,3 21,3 21,9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                    </div>
+                    <h3 class="project-title">Go Jerry Go</h3>
+                    <p class="project-subtitle">Side-Scrolling Game</p>
+                    <p class="project-description">First complete game demonstrating core gameplay mechanics.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag-small">Unreal Engine 4</span>
+                        <span class="tech-tag-small">Blueprint</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <span class="project-category">Game Jam</span>
+                        <a href="https://www.youtube.com/watch?v=PbHedSFA1tw" target="_blank" class="project-link">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15,3 21,3 21,9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                    </div>
+                    <h3 class="project-title">ESCAPE</h3>
+                    <p class="project-subtitle">GameJam Entry</p>
+                    <p class="project-description">Rapid prototype puzzle game developed in 48 hours.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag-small">Unreal Engine 4</span>
+                        <span class="tech-tag-small">Prototyping</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Let's Build Something Amazing</h2>
+                <p class="section-subtitle">Ready to collaborate on the next breakthrough in gaming and AI?</p>
+            </div>
+
+            <div class="contact-grid">
+                <a href="mailto:jatingargwork@gmail.com?subject=Collaboration Opportunity&body=Hi Jatin,%0D%0A%0D%0AI'm interested in discussing a collaboration opportunity. Looking forward to connecting!" class="contact-card">
+                    <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                        <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                    <h3 class="contact-title">Email Me</h3>
+                    <p class="contact-description">Let's discuss opportunities</p>
+                    <p class="contact-info">jatingargwork@gmail.com</p>
+                </a>
+
+                <a href="https://linkedin.com/in/jatinrx" target="_blank" class="contact-card">
+                    <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                        <rect x="2" y="9" width="4" height="12"></rect>
+                        <circle cx="4" cy="4" r="2"></circle>
+                    </svg>
+                    <h3 class="contact-title">LinkedIn</h3>
+                    <p class="contact-description">Connect professionally</p>
+                    <p class="contact-info">View my network</p>
+                </a>
+            </div>
+
+            <div class="contact-buttons">
+                <a href="mailto:jatingargwork@gmail.com?subject=Game Development Project&body=Hi Jatin,%0D%0A%0D%0AI have a game development project I'd like to discuss with you.%0D%0A%0D%0AProject Details:%0D%0A-%0D%0A-%0D%0A%0D%0ALooking forward to hearing from you!" class="btn-gaming">
+                    <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polygon points="13,2 3,14 12,14 11,22 21,10 12,10 13,2"></polygon>
+                    </svg>
+                    Start a Project
+                </a>
+                <a href="https://linkedin.com/in/jatinrx" target="_blank" class="btn-gaming-outline">
+                    <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                        <rect x="2" y="9" width="4" height="12"></rect>
+                        <circle cx="4" cy="4" r="2"></circle>
+                    </svg>
+                    Connect on LinkedIn
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <svg class="gamepad-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="6" y1="11" x2="10" y2="11"></line>
+                        <line x1="8" y1="9" x2="8" y2="13"></line>
+                        <line x1="15" y1="12" x2="15.01" y2="12"></line>
+                        <line x1="18" y1="10" x2="18.01" y2="10"></line>
+                        <path d="M17.32 5H6.68a4 4 0 0 0-4.25 5.29l.9 6.32A2 2 0 0 0 5.31 18h1.75C8.22 18 9 17.22 9 16.06V14a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2.06C15 17.22 15.78 18 16.94 18h1.75a2 2 0 0 0 1.98-1.61l.9-6.32A4 4 0 0 0 17.32 5Z"></path>
+                    </svg>
+                    <span class="footer-name">Jatin Garg</span>
+                </div>
+                <div class="footer-location">
+                    <svg class="location-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                        <circle cx="12" cy="10" r="3"></circle>
+                    </svg>
+                    <span>Baner, Pune, Maharashtra</span>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024 Jatin Garg. Building the future of interactive experiences.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
